@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import './index.scss';
 import App from './App';
+import Contact from './components/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
     ,
