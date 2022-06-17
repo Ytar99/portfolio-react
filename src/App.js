@@ -4,8 +4,11 @@ import Main from './components/Main';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div className="app">
+      <div className="wrapper">
+        <Header />
+        <Main />
+      </div>
     </div>
   );
 }

@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +9,21 @@
   font-family: 'Poppins', sans-serif;
 }
 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8efef;
+}
+
 img,
 picture {
   max-width: 100%;
+}
+
+.app {
+  width: 100%;
+  margin: 0 auto;
 }
