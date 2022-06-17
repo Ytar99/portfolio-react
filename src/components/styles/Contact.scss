@@ -48,10 +48,16 @@ a {
     cursor: pointer;
     margin-top: 1rem;
     border: 3px solid pink;
-    color: pink;
+    color: rgb(249, 144, 161);
     text-transform: uppercase;
     border-radius: 5px;
     font-size: 20px;
+    transition: transform 0.1s;
+    display: flex;
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }
 

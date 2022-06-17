@@ -15,14 +15,14 @@ const Contact = () => {
           variant="filled"
           severity="success"
         >
-          <span style={{ color: 'lightgray' }}>(фейковое)</span>{' '}
-          Сообщение успешно отправлено!
+          <span style={{ color: 'lightgray' }}>(fake)</span> Message
+          successfully sended!
         </Alert>
       ) : null}
 
       <Link to="/">
         <Close fontSize="large" />
-        {/* <span>Закрыть</span> */}
+        {/* <span>Close</span> */}
       </Link>
 
       <form
